@@ -1,0 +1,45 @@
+.glb-viewer-wrapper {
+  width: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+}
+
+.glb-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  min-height: 280px;
+  background: var(--color-bg-alt);
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  text-align: center;
+}
+
+.glb-placeholder-icon {
+  font-size: 3rem;
+}
+
+.glb-placeholder-text {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  font-style: italic;
+}
+
+.glb-placeholder-note {
+  font-size: 0.78rem;
+  color: var(--color-text-light);
+  line-height: 1.5;
+}
+
+.glb-placeholder-note code {
+  background: var(--color-border);
+  padding: 0 0.3em;
+  border-radius: 3px;
+  font-family: var(--font-mono);
+}

@@ -1,0 +1,55 @@
+.footer {
+  background: var(--color-primary-dark);
+  color: rgba(255,255,255,0.75);
+  padding: 2.5rem 0 1.5rem;
+  margin-top: auto;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.footer-name {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  color: #fff;
+}
+
+.footer-affil {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.55);
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem 1rem;
+}
+
+.footer-nav a {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.88rem;
+  transition: color 0.15s;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-copy {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.4);
+  margin: 0;
+}
