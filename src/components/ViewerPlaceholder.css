@@ -1,0 +1,41 @@
+.viewer-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  min-height: 280px;
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius);
+  padding: 2rem 2.5rem;
+  text-align: center;
+}
+
+.viewer-placeholder-icon {
+  font-size: 2.5rem;
+  color: var(--color-accent);
+  line-height: 1;
+}
+
+.viewer-placeholder-label {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  font-style: italic;
+}
+
+.viewer-placeholder-note {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  line-height: 1.6;
+  max-width: 520px;
+  margin: 0;
+}
+
+.viewer-placeholder-note code {
+  background: var(--color-border);
+  padding: 0 0.3em;
+  border-radius: 3px;
+  font-family: var(--font-mono);
+}

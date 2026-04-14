@@ -1,0 +1,69 @@
+.pub-container {
+  max-width: 800px;
+}
+
+.pub-year-group {
+  margin-bottom: 2.5rem;
+}
+
+.pub-year-heading {
+  font-size: 1.4rem;
+  color: var(--color-primary-dark);
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pub-item {
+  padding: 1.25rem 1.5rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.pub-title {
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.3rem;
+  line-height: 1.45;
+}
+
+.pub-title a {
+  color: var(--color-primary-dark);
+}
+
+.pub-title a:hover {
+  color: var(--color-primary);
+}
+
+.pub-authors {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.2rem;
+}
+
+.pub-journal {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.pub-doi {
+  font-size: 0.83rem;
+  color: var(--color-text-light);
+}
+
+.pub-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.25rem;
+}

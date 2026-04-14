@@ -1,2 +1,2 @@
 # thejinlab.github.io
-Website for Jian Lab at NYBG
+Website for the Jin Lab at NYBG
