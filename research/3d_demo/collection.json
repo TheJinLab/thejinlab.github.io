@@ -17,7 +17,9 @@
     "id": "a0021",
     "name": "Sarcoglottis sceptrodes Green Goddess",
     "image": "./media/a0021.webp",
-    "video": "./media/a0021.mp4"
+    "video": "./media/a0021.mp4",
+    "botanicalName": "Sarcoglottis sceptrodes",
+    "horticulturalName": "Green Goddess"
   },
   {
     "id": "a0026",
