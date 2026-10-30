@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>3D floral phenomics · Jin Lab</title>
+  <meta name="description" content="Explore floral diversity in 3D: selected reconstructions and visual comparisons of photogrammetry, Gaussian splatting and generative methods." />
+  <link rel="canonical" href="https://thejinlab.github.io/research/3d_demo/" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="./exhibit.css" />
+  <script src="./exhibit.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><div class="wrap nav"><span class="brand">Jin Lab <span>NYBG</span></span><span class="muted">3D floral phenomics</span></div></header>
+  <main class="wrap">
+    <header class="intro">
+      <p class="kicker">Research · 3D phenomics</p>
+      <h1>Living flowers, in three dimensions</h1>
+      <p>We use image-based reconstruction to study floral form, from the outline of a petal to fine surface structures. Explore selected models and see how reconstruction methods represent the same specimen.</p>
+      <nav class="section-nav" aria-label="On this page"><a href="#collection">Selected reconstructions</a><a href="#comparisons">Method comparisons</a></nav>
+    </header>
+
+    <section id="collection" aria-labelledby="collection-title">
+      <div class="section-heading"><div><p class="kicker">Floral diversity</p><h2 id="collection-title">Selected reconstructions</h2></div><span class="muted">Metashape · textured meshes</span></div>
+      <p class="section-note">A selection from our 3D Mulu collection. Rotating renders play as you browse; select a specimen to enlarge its video. Three specimens also offer an interactive 3D preview. Acquisition supports remain visible in these models.</p>
+      <div class="gallery" id="gallery"></div>
+      <noscript><p>Enable JavaScript for the interactive collection. <a href="./media/comparisons/a0094-comparison.png">View the fine-structure comparison</a> or <a href="./media/comparisons/a0050-comparison.png">the petal-edge comparison</a>.</p></noscript>
+    </section>
+
+    <section id="comparisons" aria-labelledby="comparison-title">
+      <p class="kicker">Reconstruction methods</p><h2 id="comparison-title">The same specimen, different representations</h2>
+      <p class="section-note">These examples show visual trade-offs in existing reconstructions. Switch the view to compare matching camera perspectives across methods.</p>
+      <div id="comparison-figures"></div>
+      <aside class="method-note"><h3>Reading these comparisons</h3><p>The reference photographs were held out from Gaussian training. Input counts and reconstruction settings differ across methods; a common training split for all methods has not been established. These are qualitative examples, rather than a controlled ranking. Agreement in appearance does not establish geometric accuracy.</p></aside>
+    </section>
+
+    <p class="closing">The collection and our reconstruction workflows are still growing. <a href="mailto:jjin@nybg.org">Get in touch</a> to discuss the work.</p>
+  </main>
+  <footer class="wrap"><span>Jin Lab · New York Botanical Garden</span><span>Viewer: <a href="./vendor/three/LICENSE.txt">three.js</a> · <a href="./vendor/meshoptimizer-LICENSE.md">meshoptimizer</a></span></footer>
+
+  <dialog id="image-dialog" aria-labelledby="image-title"><div class="dialog-head"><h2 id="image-title"></h2><button type="button" data-close="image-dialog">Close</button></div><video id="large-video" muted autoplay loop playsinline controls preload="none"></video><p class="muted">Rendered reconstruction · presentation scale</p></dialog>
+  <dialog id="model-dialog" aria-labelledby="model-title"><div class="dialog-head"><h2 id="model-title"></h2><button type="button" data-close="model-dialog">Close</button></div><div id="model-canvas"></div><p id="model-status" role="status">Loading 3D preview…</p><div class="model-controls"><button type="button" id="reset-view">Reset view</button><p class="muted">Drag to rotate · scroll or pinch to zoom. Lightly simplified mesh; scale is not calibrated.</p></div></dialog>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a0011",
+    "name": "Trichocentrum splendidum",
+    "image": "./media/a0011.webp",
+    "model": "./media/a0011.glb",
+    "video": "./media/a0011.mp4",
+    "modelMegabytes": 11.4,
+    "orientation": [
+      0.10113006980144906,
+      -0.8501471197198004,
+      -0.33788460844422247,
+      -0.3909687649807538
+    ]
+  },
+  {
+    "id": "a0021",
+    "name": "Sarcoglottis sceptrodes Green Goddess",
+    "image": "./media/a0021.webp",
+    "video": "./media/a0021.mp4"
+  },
+  {
+    "id": "a0026",
+    "name": "Leptotes harryphillipsii",
+    "image": "./media/a0026.webp",
+    "video": "./media/a0026.mp4"
+  },
+  {
+    "id": "a0031",
+    "name": "Oncidium roseoides",
+    "image": "./media/a0031.webp",
+    "video": "./media/a0031.mp4"
+  },
+  {
+    "id": "a0034",
+    "name": "Bulbophyllum sulawesii",
+    "image": "./media/a0034.webp",
+    "video": "./media/a0034.mp4"
+  },
+  {
+    "id": "a0037",
+    "name": "Chysis limminghei",
+    "image": "./media/a0037.webp",
+    "video": "./media/a0037.mp4"
+  },
+  {
+    "id": "a0040",
+    "name": "Maxillaria tenuifolia",
+    "image": "./media/a0040.webp",
+    "model": "./media/a0040.glb",
+    "video": "./media/a0040.mp4",
+    "modelMegabytes": 20.1,
+    "orientation": [
+      0.039401118378825525,
+      -0.9354205832577698,
+      -0.22345229473106332,
+      -0.27111797481468025
+    ]
+  },
+  {
+    "id": "a0052",
+    "name": "Stelis cypripedioides",
+    "image": "./media/a0052.webp",
+    "video": "./media/a0052.mp4"
+  },
+  {
+    "id": "a0053",
+    "name": "Oncidium strictum",
+    "image": "./media/a0053.webp",
+    "video": "./media/a0053.mp4"
+  },
+  {
+    "id": "a0056",
+    "name": "Bulbophyllum pteroglossum",
+    "image": "./media/a0056.webp",
+    "video": "./media/a0056.mp4"
+  },
+  {
+    "id": "a0060",
+    "name": "Gongora claviodora",
+    "image": "./media/a0060.webp",
+    "video": "./media/a0060.mp4"
+  },
+  {
+    "id": "a0083",
+    "name": "Masdevallia amplexa",
+    "image": "./media/a0083.webp",
+    "video": "./media/a0083.mp4"
+  },
+  {
+    "id": "a0087",
+    "name": "Tetramicra canaliculata",
+    "image": "./media/a0087.webp",
+    "video": "./media/a0087.mp4"
+  },
+  {
+    "id": "a0088",
+    "name": "Gongora bufonia",
+    "image": "./media/a0088.webp",
+    "video": "./media/a0088.mp4"
+  },
+  {
+    "id": "a0094",
+    "name": "Bulbophyllum phalaenopsis",
+    "image": "./media/a0094.webp",
+    "model": "./media/a0094.glb",
+    "video": "./media/a0094.mp4",
+    "modelMegabytes": 12,
+    "orientation": [
+      -0.12790964062496363,
+      -0.5221871191595312,
+      -0.037980118426536286,
+      0.8423284674183633
+    ]
+  },
+  {
+    "id": "a0097",
+    "name": "Grammangis ellisii",
+    "image": "./media/a0097.webp",
+    "video": "./media/a0097.mp4"
+  }
+]
