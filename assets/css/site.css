@@ -146,8 +146,8 @@ main:focus{outline:none}
 /* PI roles sit directly under the NYBG appointment; biography remains separate. */
 .pi-appointments{list-style:none;padding:0;margin:8px 0 27px;font-size:13px;line-height:1.7;color:var(--muted)}.pi-appointments li+li{margin-top:5px}@media(max-width:760px){.pi-appointments{font-size:11px;margin-bottom:24px}}
 
-/* A single current member has room for a concise introduction. */
-.mentoring-section .current-member-list{display:block;max-width:740px}.current-member-list article{border-top:0;padding-top:0}.current-member-list h3{font-size:20px;line-height:1.5}.current-member-list p{font-size:14px;line-height:1.85}.current-member-list .member-role{font-size:12px;color:var(--muted);margin:5px 0 12px}@media(max-width:760px){.current-member-list h3{font-size:18px}.current-member-list p{font-size:13px}}
+/* Current member introductions share a clear vertical rhythm. */
+.mentoring-section .current-member-list{display:grid;grid-template-columns:1fr;gap:28px;max-width:740px}.current-member-list article{border-top:0;padding-top:0}.current-member-list h3{font-size:20px;line-height:1.5}.current-member-list p{font-size:14px;line-height:1.85}.current-member-list .member-role{font-size:12px;color:var(--muted);margin:5px 0 12px}@media(max-width:760px){.current-member-list h3{font-size:18px}.current-member-list p{font-size:13px}}
 
 /* Modest fieldwork portrait beside the PI biography; no crop. */
 .people-layout{display:grid;grid-template-columns:minmax(0,740px) 280px;gap:64px;max-width:none;align-items:start}.pi-fieldwork{margin:0;padding-top:6px}.pi-fieldwork img{width:100%;height:auto;display:block}@media(max-width:1050px){.people-layout{grid-template-columns:minmax(0,1fr) 240px;gap:36px}}@media(max-width:760px){.people-layout{grid-template-columns:1fr;gap:25px}.pi-fieldwork{order:-1;width:220px;max-width:100%;padding:0}.person-copy{padding-top:0}}
@@ -198,3 +198,7 @@ main:focus{outline:none}
 @media(max-width:760px){.hero--floral-atlas{gap:28px;padding-bottom:30px}.hero--floral-atlas .hero-intro{grid-template-columns:1fr;gap:22px}.hero--floral-atlas .hero-floral-atlas figcaption{position:static;max-width:none;margin-top:10px;font-size:12px;line-height:1.4}}
 
 .publication-name-note{max-width:760px;margin-top:30px;font-size:12px;line-height:1.8;color:var(--muted)}
+
+/* Primary appointment leads the PI affiliation hierarchy. */
+.pi-heading .role{font-size:15px;line-height:1.65;color:var(--ink)}
+@media(max-width:760px){.pi-heading .role{font-size:13px}}
